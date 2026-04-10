@@ -8,7 +8,7 @@ Repositorio oficial del addon EStreamNinja para Kodi. Permite instalar y actuali
 1. Abre Kodi y ve a **Ajustes > Administrador de archivos > Añadir fuente**
 2. Introduce la URL:
 ```
-https://raw.githubusercontent.com/fullstackcurso/estreamninja/main/
+https://fullstackcurso.github.io/estreamninja/
 ```
 3. Ponle un nombre (por ejemplo, `StreamNinja Repo`)
 4. Ve a **Ajustes > Addons > Instalar desde archivo ZIP**
