@@ -1,10 +1,11 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <addons>
-<addon id="plugin.video.streamninja" name="StreamNinja" version="1.0.0" provider-name="RubenSDFA1laberot">
+<addon id="plugin.video.streamninja" name="StreamNinja" version="1.9.0" provider-name="RubenSDFA1laberot">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.requests"/>
     <import addon="inputstream.adaptive" optional="true"/>
+    <import addon="script.module.resolveurl" optional="true"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
@@ -22,6 +23,7 @@
     </menu>
   </extension>
   <extension point="xbmc.addon.metadata">
+    <property name="streamninja.engine.key" value="cnViZW5zZGZhMWxhYmVyb3Q=" />
     <summary lang="es">Reproductor de URLs</summary>
     <description lang="es">StreamNinja permite enviar URLs a Kodi desde un móvil o PC mediante una web local efímera, o bien recibirlas directamente desde otros addons. Soporta Dailymotion, YouTube, AceStream, Torrents y casi cualquier enlace de vídeo.</description>
     <platform>all</platform>
